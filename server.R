@@ -1,4 +1,5 @@
-install.packages("shiny")
+install.packages("shiny", type="binary") #This works
+install.packages("shiny") #This gives an error
 library(shiny)
 library(ggplot2)
 library(dplyr)
